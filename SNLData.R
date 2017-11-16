@@ -6,6 +6,49 @@ library(lubridate) # Working with dates
 library(stringr)   # Working with strings
 
 
+### Scrape SNL Episode IMDb ratings
+
+url <- "http://www.imdb.com/title/tt0072562/epdate" #IMDb URL
+
+raw.ratings <- url %>% 
+  read_html %>% 
+  html_nodes('table') %>% # Ratings table is taggeed as 'table'
+  html_table(header=F) %>% # Extract tables
+  `[[`(1) %>% # Retain first table with ratings
+  data.frame(stringsAsFactors=F) # Convert to data frame
+
+head(raw.ratings)
+#write.csv(raw.ratings,"Data/SNLRawRatings.csv",row.names=F)
+
+# Helper function for extracting the season from the full episode number
+extract.season <- function(x){
+  
+  token.list <- x %>%
+    as.character %>%
+    strsplit(split=".", fixed=T) %>% # Season number appears before the '.'
+    unlist
+  
+  return(as.numeric(token.list[1]))  # Convert to numeric before returning
+}
+
+# Clean SNL ratings data
+snl.ratings <- raw.ratings %>%
+  tail(-1) %>% #  Remove first row
+  select(1:4) %>% # Retain first 4 columns
+  rename(EpisodeNumber = X1,
+         Guests = X2,
+         Rating = X3,
+         Votes = X4) %>% # Rename variables
+  rowwise %>%
+  mutate(Season = extract.season(EpisodeNumber)) %>% # Get season number from episode number
+  select(Season, Guests, Rating, Votes) %>% # Retain variables
+  ungroup %>%
+  filter(Season < 43) # Not going to consider episodes from the currently airing season
+
+head(snl.ratings)
+#write.csv(snl.ratings,"SNLRatings.csv",row.names=F)
+
+
 ### Scrape SNL Episode Airdates
 
 # Helper function for scraping SNL airdate tables from Wikipedia
@@ -67,57 +110,15 @@ head(first.episodes)
 #write.csv(first.episodes,"Data/SNLFirstEpisodes.csv",row.names=F)
 
 # Merge season information to each episode in clean airdate data
-snl.airdates.with.season <- snl.airdates %>%
+snl.airdates <- snl.airdates %>%
   left_join(first.episodes, by="EpNumber") %>% # Bind season number based on episode number
   mutate(Season = na.locf(Season)) %>% # Carry season number forward to remaining episodes in season
   select(Season, SeasonEpNumber, Host, MusicalGuest, AirDate) %>% # Retain variables of interest
   filter(Season < 43) # Not going to consider the season currently airing
 
-head(snl.airdates.with.season)
-#write.csv(snl.airdates.with.season, "Data/SNLAirdates.csv", row.names=F)
+head(snl.airdates)
+#write.csv(snl.airdates, "Data/SNLAirdates.csv", row.names=F)
 
-
-### Scrape SNL Episode IMDb ratings
-
-url <- "http://www.imdb.com/title/tt0072562/epdate" #IMDb URL
-
-raw.ratings <- url %>% 
-  read_html %>% 
-  html_nodes('table') %>% # Ratings table is taggeed as 'table'
-  html_table(header=F) %>% # Extract tables
-  `[[`(1) %>% # Retain first table with ratings
-  data.frame(stringsAsFactors=F) # Convert to data frame
-
-head(raw.ratings)
-#write.csv(raw.ratings,"Data/SNLRawRatings.csv",row.names=F)
-
-# Helper function for extracting the season from the full episode number
-extract.season <- function(x){
-  
-  token.list <- x %>%
-    as.character %>%
-    strsplit(split=".", fixed=T) %>% # Season number appears before the '.'
-    unlist
-  
-  return(as.numeric(token.list[1]))  # Convert to numeric before returning
-}
-
-# Clean SNL ratings data
-snl.ratings <- raw.ratings %>%
-  tail(-1) %>% #  Remove first row
-  select(1:4) %>% # Retain first 4 columns
-  rename(EpisodeNumber = X1,
-         Guests = X2,
-         Rating = X3,
-         Votes = X4) %>% # Rename variables
-  rowwise %>%
-  mutate(Season = extract.season(EpisodeNumber)) %>% # Get season number from episode number
-  select(Season, Guests, Rating, Votes) %>% # Retain variables
-  ungroup %>%
-  filter(Season < 43) # Not going to consider episodes from the currently airing season
-
-head(snl.ratings)
-#write.csv(snl.ratings,"SNLRatings.csv",row.names=F)
 
 
 ### Check for mismatches between Airdates and Ratings datasets, then combine
@@ -128,7 +129,8 @@ head(snl.ratings)
 # Check if episode counts are the same
 snl.airdates.season.counts <- snl.airdates %>%
   group_by(Season) %>%
-  summarize(N1=n())
+  summarize(N1=n()) %>%
+  arrange(Season)
 
 snl.ratings.season.counts <- snl.ratings %>%
   group_by(Season) %>%

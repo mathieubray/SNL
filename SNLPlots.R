@@ -1,4 +1,5 @@
-library(dplyr)     
+library(dplyr)
+library(lubridate)
 library(ggplot2)
 library(ggridges) # Funky mountain range plots
 library(viridis)  # User-friendly color scheme
@@ -36,19 +37,21 @@ snl.data %>% filter(Season==41, Rating < 4.0) # One of the least popular episode
 
 # Caveat: Number of votes to form rating for episode
 
-mean.votes <- snl.data.enhanced %>% 
+mean.votes <- snl.data %>% 
   group_by(Season) %>% 
   summarize(MeanVotes = mean(Votes))
 
-snl.data.enhanced <- snl.data.enhanced %>%
+snl.data <- snl.data %>%
   left_join(mean.votes, by="Season")
 
-ggplot(data=snl.data.enhanced, aes(x=Season, y=Votes, color = MeanVotes)) +
+ggplot(data=snl.data, aes(x=Season, y=Votes, color = MeanVotes)) +
   scale_color_viridis(name = "Mean Number of Votes", direction=-1) +
   scale_x_continuous(breaks=1:42) +
   geom_point() +
   theme_bw() +
-  coord_flip()
+  coord_flip() +
+  annotate("text",x=21,y=300,col="red",label=paste0("@mathieubray ",lubridate::year(lubridate::today())),
+           alpha=0.15,cex=15,fontface="bold",angle=30)
 
 
 ### Plot overall ratings distribution
@@ -189,7 +192,7 @@ ggplot(data=snl.data.enhanced, aes(x=Rating, fill=ConsecutiveCat)) +
   geom_density(alpha=0.7) +
   facet_wrap(~ConsecutiveCat) +
   scale_fill_viridis(name = "Number of Consecutive Episodes Prior", discrete=T) +
-  theme_bw() +
+  theme_bw() +\
   xlim(0,10) +
   xlab("Ratings Distribution") +
   ylab("Density") +
