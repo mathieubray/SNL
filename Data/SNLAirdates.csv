@@ -1,0 +1,835 @@
+"Season","SeasonEpNumber","Host","MusicalGuest","AirDate"
+1,1,"George Carlin","Billy Preston & Janis Ian",1975-10-11
+1,2,"Paul Simon","Randy Newman, Phoebe Snow, Art Garfunkel & Jessy Dixon Singers",1975-10-18
+1,3,"Rob Reiner","none",1975-10-25
+1,4,"Candice Bergen","Esther Phillips",1975-11-08
+1,5,"Robert Klein","ABBA & Loudon Wainwright III",1975-11-15
+1,6,"Lily Tomlin","Tomlin with Howard Shore & the All Nurse Band",1975-11-22
+1,7,"Richard Pryor","Gil Scott-Heron",1975-12-13
+1,8,"Candice Bergen","Martha Reeves & The Stylistics",1975-12-20
+1,9,"Elliott Gould","Anne Murray",1976-01-10
+1,10,"Buck Henry","Bill Withers & Toni Basil",1976-01-17
+1,11,"Peter Cook & Dudley Moore","Neil Sedaka",1976-01-24
+1,12,"Dick Cavett","Jimmy Cliff",1976-01-31
+1,13,"Peter Boyle","Al Jarreau",1976-02-14
+1,14,"Desi Arnaz","Desi Arnaz & Desi Arnaz, Jr.",1976-02-21
+1,15,"Jill Clayburgh","Leon Redbone & The Idlers",1976-02-28
+1,16,"Anthony Perkins","Betty Carter",1976-03-13
+1,17,"Ron Nessen","Patti Smith",1976-04-17
+1,18,"Raquel Welch","Phoebe Snow & John Sebastian",1976-04-24
+1,19,"Madeline Kahn","Carly Simon",1976-05-08
+1,20,"Dyan Cannon","Leon and Mary Russell",1976-05-15
+1,21,"Buck Henry","Gordon Lightfoot & Garrett Morris",1976-05-22
+1,22,"Elliott Gould","Leon Redbone, Harlan Collins & Joyce Everson",1976-05-29
+1,23,"Louise Lasser","Preservation Hall Jazz Band",1976-07-24
+1,24,"Kris Kristofferson","Rita Coolidge",1976-07-31
+2,1,"Lily Tomlin","James Taylor",1976-09-18
+2,2,"Norman Lear","Boz Scaggs",1976-09-25
+2,3,"Eric Idle","Joe Cocker & Stuff",1976-10-02
+2,4,"Karen Black","John Prine",1976-10-16
+2,5,"Steve Martin","Kinky Friedman",1976-10-23
+2,6,"Buck Henry","The Band",1976-10-30
+2,7,"Dick Cavett","Ry Cooder",1976-11-13
+2,8,"Paul Simon","Paul Simon & George Harrison",1976-11-20
+2,9,"Jodie Foster","Brian Wilson",1976-11-27
+2,10,"Candice Bergen","Frank Zappa with Don Pardo as ""The Slime""",1976-12-11
+2,11,"Ralph Nader","George Benson",1977-01-15
+2,12,"Ruth Gordon","Chuck Berry",1977-01-22
+2,13,"Fran Tarkenton","Leo Sayer
+Donny Harper",1977-01-29
+2,14,"Steve Martin","The Kinks",1977-02-26
+2,15,"Sissy Spacek","Richard Baskin",1977-03-12
+2,16,"Broderick Crawford","Levon HelmDr. JohnThe Meters",1977-03-19
+2,17,"Jack Burns","Santana",1977-03-26
+2,18,"Julian Bond","Tom WaitsBrick",1977-04-09
+2,19,"Elliott Gould","McGarrigle SistersRoslyn Kind",1977-04-16
+2,20,"Eric Idle","Alan PriceNeil Innes",1977-04-23
+2,21,"Shelley Duvall","Joan Armatrading",1977-05-14
+2,22,"Buck Henry","Jennifer WarnesKenny Vance",1977-05-21
+3,1,"Steve Martin","Jackson Browne",1977-09-24
+3,2,"Madeline Kahn","Taj Mahal",1977-10-08
+3,3,"Hugh Hefner","Libby Titus",1977-10-15
+3,4,"Charles Grodin","Paul Simon",1977-10-29
+3,5,"Ray Charles","Ray Charles",1977-11-12
+3,6,"Buck Henry","Leon Redbone",1977-11-19
+3,7,"Mary Kay Place","Willie Nelson",1977-12-10
+3,8,"Miskel Spillman","Elvis Costello",1977-12-17
+3,9,"Steve Martin","Randy Newman, The Nitty Gritty Dirt Band",1978-01-21
+3,10,"Robert Klein","Bonnie Raitt",1978-01-28
+3,11,"Chevy Chase","Billy Joel",1978-02-18
+3,12,"O. J. Simpson","Ashford and Simpson",1978-02-25
+3,13,"Art Garfunkel","Stephen Bishop",1978-03-11
+3,14,"Jill Clayburgh","Eddie Money",1978-03-18
+3,15,"Christopher Lee","Meat Loaf",1978-03-25
+3,16,"Michael Palin","Eugene Record",1978-04-08
+3,17,"Michael Sarrazin","Keith Jarrett",1978-04-15
+3,18,"Steve Martin","The Blues Brothers",1978-04-22
+3,19,"Richard Dreyfuss","Jimmy Buffett, Gary Tigerman",1978-05-13
+3,20,"Buck Henry","Sun Ra",1978-05-20
+4,1,"The Rolling Stones","The Rolling Stones",1978-10-07
+4,2,"Fred Willard","Devo",1978-10-14
+4,3,"Frank Zappa","Frank Zappa",1978-10-21
+4,4,"Steve Martin","Van Morrison",1978-11-04
+4,5,"Buck Henry","Grateful Dead",1978-11-11
+4,6,"Carrie Fisher","The Blues Brothers",1978-11-18
+4,7,"Walter Matthau","none",1978-12-02
+4,8,"Eric Idle","Kate Bush",1978-12-09
+4,9,"Elliott Gould","Peter Tosh with Mick Jagger",1978-12-16
+4,10,"Michael Palin","The Doobie Brothers",1979-01-27
+4,11,"Cicely Tyson","Talking Heads",1979-02-10
+4,12,"Ricky Nelson","Judy Collins",1979-02-17
+4,13,"Kate Jackson","Delbert McClinton",1979-02-24
+4,14,"Gary Busey","Eubie Blake & Gregory HinesGary Busey with Rick Danko & Paul Butterfield",1979-03-10
+4,15,"Margot Kidder","The Chieftains",1979-03-17
+4,16,"Richard Benjamin","Rickie Lee Jones",1979-04-07
+4,17,"Milton Berle","Ornette Coleman",1979-04-14
+4,18,"Michael Palin","James Taylor",1979-05-12
+4,19,"Maureen Stapleton","Linda RonstadtPhoebe Snow",1979-05-19
+4,20,"Buck Henry","Bette Midler",1979-05-26
+5,1,"Steve Martin","Blondie",1979-10-13
+5,2,"Eric Idle","Bob Dylan",1979-10-20
+5,3,"Bill Russell","Chicago",1979-11-03
+5,4,"Buck Henry","Tom Petty and the Heartbreakers",1979-11-10
+5,5,"Bea Arthur","The Roches",1979-11-17
+5,6,"Howard Hesseman","Randy Newman",1979-12-08
+5,7,"Martin Sheen","David Bowie",1979-12-15
+5,8,"Ted Knight","Desmond Child & Rouge",1979-12-22
+5,9,"Teri Garr","The B-52's",1980-01-26
+5,10,"Chevy Chase","Marianne FaithfullTom Scott",1980-02-09
+5,11,"Elliott Gould","Gary Numan",1980-02-16
+5,12,"Kirk Douglas","Sam & Dave",1980-02-23
+5,13,"Rodney Dangerfield","The J. Geils Band",1980-03-08
+5,14,"none","Paul SimonJames TaylorDavid Sanborn",1980-03-15
+5,15,"Richard BenjaminPaula Prentiss","The Grateful Dead",1980-04-05
+5,16,"Burt Reynolds","Anne Murray",1980-04-12
+5,17,"Strother Martin","The Specials",1980-04-19
+5,18,"Bob Newhart","The Amazing Rhythm AcesBruce Cockburn",1980-05-10
+5,19,"Steve Martin","3-D, Paul McCartney and Linda McCartney",1980-05-17
+5,20,"Buck Henry","Andrew GoldAndrae Crouch & the Voices of Unity",1980-05-24
+6,1,"Elliott Gould","Kid Creole & the Coconuts",1980-11-15
+6,2,"Malcolm McDowell","Captain Beefheart & His Magic Band",1980-11-22
+6,3,"Ellen Burstyn","Aretha Franklin
+Keith Sykes",1980-12-06
+6,4,"Jamie Lee Curtis","James BrownEllen Shipley",1980-12-13
+6,5,"David Carradine","Linda Ronstadt
+The Cast of The Pirates of Penzance",1980-12-20
+6,6,"Ray Sharkey","Jack Bruce & Friends",1981-01-10
+6,7,"Karen Black","Cheap TrickStanley Clarke Trio",1981-01-17
+6,8,"Robert Hays","Joe ""King"" Carrasco & the Crowns
+14 Karat Soul",1981-01-24
+6,9,"Sally Kellerman","Jimmy Cliff",1981-02-07
+6,10,"Deborah Harry","Deborah HarryFunky Four Plus One",1981-02-14
+6,11,"Charlene Tilton","Todd RundgrenPrince",1981-02-21
+6,12,"Bill Murray","Delbert McClinton",1981-03-07
+6,13,"none","Jr. Walker & the All-Stars",1981-04-11
+7,1,"(none)","Rod Stewart",1981-10-03
+7,2,"Susan Saint James","The Kinks",1981-10-10
+7,3,"George Kennedy","Miles Davis",1981-10-17
+7,4,"Donald Pleasence","Fear",1981-10-31
+7,5,"Lauren Hutton","Rick James",1981-11-07
+7,6,"Bernadette Peters","The Go-Go'sBilly Joel",1981-11-14
+7,7,"Tim Curry","Meat Loaf",1981-12-05
+7,8,"Bill Murray","The SpinnersThe Whiffenpoofs",1981-12-12
+7,9,"Robert Conrad","The Allman Brothers Band",1982-01-23
+7,10,"John Madden","Jennifer Holliday",1982-01-30
+7,11,"James Coburn","Lindsey Buckingham",1982-02-06
+7,12,"Bruce Dern","Luther Vandross",1982-02-20
+7,13,"Elizabeth Ashley","Hall & Oates",1982-02-27
+7,14,"Robert Urich","Mink DeVille",1982-03-20
+7,15,"Blythe Danner","Rickie Lee Jones",1982-03-27
+7,16,"Daniel J. Travanti","John Cougar Mellencamp",1982-04-10
+7,17,"Johnny Cash","Elton John",1982-04-17
+7,18,"Robert Culp","The Charlie Daniels Band",1982-04-24
+7,19,"Danny DeVito","Sparks",1982-05-15
+7,20,"Olivia Newton-John","Olivia Newton-John",1982-05-22
+8,1,"Chevy Chase","Queen",1982-09-25
+8,2,"Louis Gossett, Jr.","George Thorogood & the Destroyers",1982-10-02
+8,3,"Ron Howard","The Clash",1982-10-09
+8,4,"Howard Hesseman","Men at Work",1982-10-23
+8,5,"Michael Keaton","The New Joe Jackson Band",1982-10-30
+8,6,"Robert Blake","Kenny Loggins",1982-11-13
+8,7,"Drew Barrymore","Squeeze",1982-11-20
+8,8,"The Smothers Brothers","Laura Branigan",1982-12-04
+8,9,"Eddie Murphy","Lionel Richie",1982-12-11
+8,10,"Lily Tomlin","Tomlin as Pervis Hawkins",1983-01-22
+8,11,"Rick MoranisDave Thomas","The Bus Boys",1983-01-29
+8,12,"Sid Caesar","Joe CockerJennifer Warnes",1983-02-05
+8,13,"Howard Hesseman","Tom Petty & The Heartbreakers",1983-02-19
+8,14,"Beau BridgesJeff Bridges","Randy Newman",1983-02-26
+8,15,"Bruce Dern","Leon Redbone",1983-03-12
+8,16,"Robert Guillaume","Duran Duran",1983-03-19
+8,17,"Joan Rivers","Musical Youth",1983-04-09
+8,18,"Susan Saint James","Michael McDonald",1983-04-16
+8,19,"Stevie Wonder","Stevie Wonder",1983-05-07
+8,20,"Ed Koch","Kevin RowlandDexys Midnight Runners",1983-05-14
+9,1,"Brandon Tartikoff","John Cougar Mellencamp",1983-10-08
+9,2,"Danny DeVito & Rhea Perlman","Eddy Grant",1983-10-15
+9,3,"John Candy","Men at Work",1983-10-22
+9,4,"Betty Thomas","Stray Cats",1983-11-05
+9,5,"Teri Garr","Mick Fleetwood's ZooLindsey Buckingham",1983-11-12
+9,6,"Jerry Lewis","Loverboy",1983-11-19
+9,7,"The Smothers Brothers","Big Country",1983-12-03
+9,8,"Flip Wilson","Stevie Nicks",1983-12-10
+9,9,"Father Guido Sarducci (Don Novello)","Huey Lewis and the News",1984-01-14
+9,10,"Michael Palin","The Motels",1984-01-21
+9,11,"Don Rickles","Billy Idol",1984-01-28
+9,12,"Robin Williams","Adam Ant",1984-02-11
+9,13,"Jamie Lee Curtis","The Fixx",1984-02-18
+9,14,"Edwin Newman","Kool & the Gang",1984-02-25
+9,15,"Billy Crystal","Al Jarreau",1984-03-17
+9,16,"Michael Douglas","Deniece Williams",1984-04-07
+9,17,"George McGovern","Madness",1984-04-14
+9,18,"Barry Bostwick","Spinal Tap",1984-05-05
+9,19,"Billy Crystal, Ed Koch, Edwin Newman, Don Novello, Betty Thomas","The Cars",1984-05-12
+10,1,"(none)","Thompson Twins",1984-10-06
+10,2,"Bob Uecker","Peter Wolf",1984-10-13
+10,3,"Jesse Jackson","Andrae CrouchWintley Phipps",1984-10-20
+10,4,"Michael McKean","Chaka KhanThe Folksmen",1984-11-03
+10,5,"George Carlin","Frankie Goes to Hollywood",1984-11-10
+10,6,"Ed Asner","The Kinks",1984-11-17
+10,7,"Ed Begley, Jr.","Billy Squier",1984-12-01
+10,8,"Ringo Starr","Herbie Hancock",1984-12-08
+10,9,"Eddie Murphy","Robert Plant & the Honeydrippers",1984-12-15
+10,10,"Kathleen Turner","John Waite",1985-01-12
+10,11,"Roy Scheider","Billy Ocean",1985-01-19
+10,12,"Alex Karras","Tina Turner",1985-02-02
+10,13,"Harry Anderson","Bryan Adams",1985-02-09
+10,14,"Pamela Sue Martin","Power Station",1985-02-16
+10,15,"Mr. THulk Hogan","The Commodores",1985-03-30
+10,16,"Christopher Reeve","Santana",1985-04-06
+10,17,"Howard Cosell","Greg Kihn",1985-04-13
+11,1,"Madonna","Simple Minds",1985-11-09
+11,2,"Chevy Chase","Sheila E",1985-11-16
+11,3,"Paul Reubens as Pee-wee Herman","Queen Ida & the Bon Temps Zydeco Band",1985-11-23
+11,4,"John Lithgow","Mr. Mister",1985-12-07
+11,5,"Tom Hanks","Sade",1985-12-14
+11,6,"Teri Garr","The Dream AcademyThe Cult",1985-12-21
+11,7,"Harry Dean Stanton","The Replacements",1986-01-18
+11,8,"Dudley Moore","Al Green",1986-01-25
+11,9,"Ron Reagan","The Nelsons",1986-02-08
+11,10,"Jerry Hall","Stevie Ray VaughanDouble Trouble",1986-02-15
+11,11,"Jay Leno","The Neville Brothers",1986-02-22
+11,12,"Griffin Dunne","Rosanne Cash",1986-03-15
+11,13,"George WendtFrancis Ford Coppola","Philip Glass",1986-03-22
+11,14,"Oprah Winfrey","Joe Jackson",1986-04-12
+11,15,"Tony Danza","Laurie Anderson",1986-04-19
+11,16,"Catherine OxenbergPaul Simon","Paul SimonLadysmith Black Mambazo",1986-05-10
+11,17,"Jimmy Breslin","Level 42E.G. Daily",1986-05-17
+11,18,"Anjelica HustonBilly Martin","George ClintonParliament-Funkadelic",1986-05-24
+12,1,"Sigourney Weaver","(none)",1986-10-11
+12,2,"Malcolm-Jamal Warner","Run DMC",1986-10-18
+12,3,"Rosanna Arquette","Ric Ocasek",1986-11-08
+12,4,"Sam Kinison","Lou Reed",1986-11-15
+12,5,"Robin Williams","Paul Simon",1986-11-22
+12,6,"Chevy Chase, Steve Martin, Martin Short","Randy Newman",1986-12-06
+12,7,"Steve Guttenberg","The Pretenders",1986-12-13
+12,8,"William Shatner","Lone Justice",1986-12-20
+12,9,"Joe MontanaWalter Payton","Deborah Harry",1987-01-24
+12,10,"Paul Shaffer","Bruce Hornsby & the Range",1987-01-31
+12,11,"Bronson Pinchot","Paul Young",1987-02-14
+12,12,"Willie Nelson","Willie Nelson",1987-02-21
+12,13,"Valerie Bertinelli","Robert Cray Band",1987-02-28
+12,14,"Bill Murray","Percy Sledge",1987-03-21
+12,15,"Charlton Heston","Wynton Marsalis",1987-03-28
+12,16,"John Lithgow","Anita Baker",1987-04-11
+12,17,"John Larroquette","Timbuk 3",1987-04-18
+12,18,"Mark Harmon","Suzanne Vega",1987-05-09
+12,19,"Garry Shandling","Los Lobos",1987-05-16
+12,20,"Dennis Hopper","Roy Orbison",1987-05-23
+13,1,"Steve Martin","Sting",1987-10-17
+13,2,"Sean Penn","LL Cool J & Michael Penn",1987-10-24
+13,3,"Dabney Coleman","The Cars",1987-10-31
+13,4,"Robert Mitchum","Simply Red",1987-11-14
+13,5,"Candice Bergen","Cher",1987-11-21
+13,6,"Danny DeVito","Bryan Ferry",1987-12-05
+13,7,"Angie Dickinson","Buster PoindexterDavid Gilmour",1987-12-12
+13,8,"Paul Simon","Linda Ronstadt",1987-12-19
+13,9,"Robin Williams","James Taylor",1988-01-23
+13,10,"Carl Weathers","Robbie Robertson",1988-01-30
+13,11,"Justine Bateman","Terence Trent D'Arby",1988-02-13
+13,12,"Tom Hanks","Randy Travis",1988-02-20
+13,13,"Judge Reinhold","10,000 Maniacs",1988-02-27
+14,1,"Tom Hanks","Keith Richards",1988-10-08
+14,2,"Matthew Broderick","The Sugarcubes",1988-10-15
+14,3,"John Larroquette","Randy NewmanMark Knopfler",1988-10-22
+14,4,"Matthew Modine","Edie Brickell and New Bohemians",1988-11-05
+14,5,"Demi Moore","Johnny Clegg & Savuka",1988-11-12
+14,6,"John Lithgow","Tracy Chapman",1988-11-19
+14,7,"Danny DeVito","The Bangles",1988-12-03
+14,8,"Kevin Kline","Bobby McFerrin",1988-12-10
+14,9,"Melanie Griffith","Little Feat",1988-12-17
+14,10,"John Malkovich","Anita Baker",1989-01-21
+14,11,"Tony Danza","John Hiatt",1989-01-28
+14,12,"Ted Danson","Luther Vandross",1989-02-11
+14,13,"Leslie Nielsen","Cowboy Junkies",1989-02-18
+14,14,"Glenn Close","Gipsy Kings",1989-02-25
+14,15,"Mary Tyler Moore","Elvis Costello",1989-03-25
+14,16,"Mel Gibson","Living Colour",1989-04-01
+14,17,"Dolly Parton","Dolly Parton",1989-04-15
+14,18,"Geena Davis","John Cougar Mellencamp",1989-04-22
+14,19,"Wayne Gretzky","Fine Young Cannibals",1989-05-13
+14,20,"Steve Martin","Tom Petty & the Heartbreakers",1989-05-20
+15,1,"Bruce Willis","Neil Young",1989-09-30
+15,2,"Rick Moranis","Rickie Lee Jones",1989-10-07
+15,3,"Kathleen Turner","Billy Joel",1989-10-21
+15,4,"James Woods","Don Henley",1989-10-28
+15,5,"Chris Evert","Eurythmics",1989-11-11
+15,6,"Woody Harrelson","David Byrne",1989-11-18
+15,7,"John Goodman","k.d. lang",1989-12-02
+15,8,"Robert Wagner","Linda RonstadtAaron Neville",1989-12-09
+15,9,"Andie MacDowell","Tracy Chapman",1989-12-16
+15,10,"Ed O'Neill","Harry Connick, Jr.",1990-01-13
+15,11,"Christopher Walken","Bonnie Raitt",1990-01-20
+15,12,"Quincy Jones","Tevin Campbell, Kool Moe Dee & Big Daddy Kane",1990-02-10
+15,13,"Tom Hanks","Aerosmith",1990-02-17
+15,14,"Fred Savage","Technotronic",1990-02-24
+15,15,"Rob Lowe","The Pogues",1990-03-17
+15,16,"Debra Winger","Eric Clapton",1990-03-24
+15,17,"Corbin Bernsen","The Smithereens",1990-04-14
+15,18,"Alec Baldwin","The B-52's",1990-04-21
+15,19,"Andrew Dice Clay","Julee Cruise & Spanic Boys",1990-05-12
+15,20,"Candice Bergen","The Notting Hillbillies",1990-05-19
+16,1,"Kyle MacLachlan","Sinéad O'Connor",1990-09-29
+16,2,"Susan Lucci","Hothouse Flowers",1990-10-06
+16,3,"George Steinbrenner","Morris Day & The Time",1990-10-20
+16,4,"Patrick Swayze","Mariah Carey",1990-10-27
+16,5,"Jimmy Smits","World Party",1990-11-10
+16,6,"Dennis Hopper","Paul Simon",1990-11-17
+16,7,"John Goodman","Faith No More",1990-12-01
+16,8,"Tom Hanks","Edie Brickell & New Bohemians",1990-12-08
+16,9,"Dennis Quaid","The Neville Brothers",1990-12-15
+16,10,"Joe Mantegna","Vanilla Ice",1991-01-12
+16,11,"Sting","Sting",1991-01-19
+16,12,"Kevin Bacon","INXS",1991-02-09
+16,13,"Roseanne Barr","Deee-Lite",1991-02-16
+16,14,"Alec Baldwin","Whitney Houston",1991-02-23
+16,15,"Michael J. Fox","The Black Crowes",1991-03-16
+16,16,"Jeremy Irons","Fishbone",1991-03-23
+16,17,"Catherine O'Hara","R.E.M.",1991-04-13
+16,18,"Steven Seagal","Michael Bolton",1991-04-20
+16,19,"Delta Burke","Chris Isaak",1991-05-11
+16,20,"George Wendt","Elvis Costello",1991-05-18
+17,1,"Michael Jordan","Public Enemy",1991-09-28
+17,2,"Jeff Daniels","Color Me Badd",1991-10-05
+17,3,"Kirstie Alley","Tom Petty & The Heartbreakers",1991-10-12
+17,4,"Christian Slater","Bonnie Raitt",1991-10-26
+17,5,"Kiefer Sutherland","Skid Row",1991-11-02
+17,6,"Linda Hamilton","Mariah Carey",1991-11-16
+17,7,"Macaulay Culkin","Tin Machine",1991-11-23
+17,8,"MC Hammer","MC Hammer",1991-12-07
+17,9,"Steve Martin","James Taylor",1991-12-14
+17,10,"Rob Morrow","Nirvana",1992-01-11
+17,11,"Chevy Chase","Robbie RobertsonBruce Hornsby & the Range",1992-01-18
+17,12,"Susan Dey","C&C Music Factory",1992-02-08
+17,13,"Jason Priestley","Teenage Fanclub",1992-02-15
+17,14,"Roseanne ArnoldTom Arnold","Red Hot Chili Peppers",1992-02-22
+17,15,"John Goodman","Garth Brooks",1992-03-14
+17,16,"Mary Stuart Masterson","En Vogue",1992-03-21
+17,17,"Sharon Stone","Pearl Jam",1992-04-11
+17,18,"Jerry Seinfeld","Annie Lennox",1992-04-18
+17,19,"Tom Hanks","Bruce Springsteen",1992-05-09
+17,20,"Woody Harrelson","Vanessa Williams",1992-05-16
+18,1,"Nicolas Cage","Bobby Brown",1992-09-26
+18,2,"Tim Robbins","Sinéad O'Connor",1992-10-03
+18,3,"Joe Pesci","The Spin Doctors",1992-10-10
+18,4,"Christopher Walken","Arrested Development",1992-10-24
+18,5,"Catherine O'Hara","10,000 Maniacs",1992-10-31
+18,6,"Michael Keaton","Morrissey",1992-11-14
+18,7,"Sinbad","Sade",1992-11-21
+18,8,"Tom Arnold","Neil Young",1992-12-05
+18,9,"Glenn Close","The Black Crowes",1992-12-12
+18,10,"Danny DeVito","Bon Jovi",1993-01-09
+18,11,"Harvey Keitel","Madonna",1993-01-16
+18,12,"Luke Perry","Mick Jagger",1993-02-06
+18,13,"Alec Baldwin","Paul McCartney",1993-02-13
+18,14,"Bill Murray","Sting",1993-02-20
+18,15,"John Goodman","Mary J. Blige",1993-03-13
+18,16,"Miranda Richardson","Soul Asylum",1993-03-20
+18,17,"Jason Alexander","Peter Gabriel",1993-04-10
+18,18,"Kirstie Alley","Lenny Kravitz",1993-04-17
+18,19,"Christina Applegate","Midnight Oil",1993-05-08
+18,20,"Kevin Kline","Willie Nelson & Paul Simon",1993-05-15
+19,1,"Charles Barkley","Nirvana",1993-09-25
+19,2,"Shannen Doherty","Cypress Hill",1993-10-02
+19,3,"Jeff Goldblum","Aerosmith",1993-10-09
+19,4,"John Malkovich","Billy Joel",1993-10-23
+19,5,"Christian Slater","The Smashing Pumpkins",1993-10-30
+19,6,"Rosie O'Donnell","James TaylorDon Grolnick",1993-11-13
+19,7,"Nicole Kidman","Stone Temple Pilots",1993-11-20
+19,8,"Charlton Heston","Paul Westerberg",1993-12-04
+19,9,"Sally Field","Tony! Toni! Toné!Lili Haydn",1993-12-11
+19,10,"Jason Patric","Blind Melon",1994-01-08
+19,11,"Sara Gilbert","Counting Crows",1994-01-15
+19,12,"Patrick Stewart","Salt-N-Pepa",1994-02-05
+19,13,"Alec Baldwin and Kim Basinger","UB40",1994-02-12
+19,14,"Martin Lawrence","Crash Test Dummies",1994-02-19
+19,15,"Nancy Kerrigan","Aretha Franklin",1994-03-12
+19,16,"Helen Hunt","Snoop Doggy Dogg",1994-03-19
+19,17,"Kelsey Grammer","Dwight Yoakam",1994-04-09
+19,18,"Emilio Estevez","Pearl Jam",1994-04-16
+19,19,"John Goodman","The Pretenders",1994-05-07
+19,20,"Heather Locklear","Janet Jackson",1994-05-14
+20,1,"Steve Martin","Eric Clapton",1994-09-24
+20,2,"Marisa Tomei","Bonnie Raitt",1994-10-01
+20,3,"John Travolta","Seal",1994-10-15
+20,4,"Dana Carvey","Edie Brickell & Paul Simon",1994-10-22
+20,5,"Sarah Jessica Parker","R.E.M.",1994-11-12
+20,6,"John Turturro","Tom Petty",1994-11-19
+20,7,"Roseanne","Green Day",1994-12-03
+20,8,"Alec Baldwin","Beastie Boys",1994-12-10
+20,9,"George Foreman","Hole",1994-12-17
+20,10,"Jeff Daniels","Luscious Jackson",1995-01-14
+20,11,"David Hyde Pierce","Live",1995-01-21
+20,12,"Bob Newhart","Des'ree",1995-02-11
+20,13,"Deion Sanders","Bon Jovi",1995-02-18
+20,14,"George Clooney","The Cranberries",1995-02-25
+20,15,"Paul Reiser","Annie Lennox",1995-03-18
+20,16,"John Goodman","The Tragically Hip",1995-03-25
+20,17,"Damon Wayans","Dionne Farris",1995-04-08
+20,18,"Courteney Cox","Dave Matthews Band",1995-04-15
+20,19,"Bob Saget","TLC",1995-05-06
+20,20,"David Duchovny","Rod Stewart",1995-05-13
+21,1,"Mariel Hemingway","Blues Traveler",1995-09-30
+21,2,"Chevy Chase","Lisa Loeb & Nine Stories",1995-10-07
+21,3,"David Schwimmer","Natalie Merchant",1995-10-21
+21,4,"Gabriel Byrne","Alanis Morissette",1995-10-28
+21,5,"Quentin Tarantino","The Smashing Pumpkins",1995-11-11
+21,6,"Laura Leighton","Rancid",1995-11-18
+21,7,"Anthony Edwards","Foo Fighters",1995-12-02
+21,8,"David Alan Grier","Silverchair",1995-12-09
+21,9,"Madeline Kahn","Bush",1995-12-16
+21,10,"Christopher Walken","Joan Osborne",1996-01-13
+21,11,"Alec Baldwin","Tori Amos",1996-01-20
+21,12,"Danny Aiello","Coolio",1996-02-10
+21,13,"Tom Arnold","Tupac Shakur",1996-02-17
+21,14,"Elle Macpherson","Sting",1996-02-24
+21,15,"John Goodman","Everclear",1996-03-16
+21,16,"Phil Hartman","Gin Blossoms",1996-03-23
+21,17,"Steve Forbes","Rage Against the Machine",1996-04-13
+21,18,"Teri Hatcher","Dave Matthews Band",1996-04-20
+21,19,"Christine Baranski","The Cure",1996-05-11
+21,20,"Jim Carrey","Soundgarden",1996-05-18
+22,1,"Tom Hanks","Tom Petty & the Heartbreakers",1996-09-28
+22,2,"Lisa Kudrow","Sheryl Crow",1996-10-05
+22,3,"Bill Pullman","New Edition",1996-10-19
+22,4,"Dana Carvey","Dr. Dre",1996-10-26
+22,5,"Chris Rock","The Wallflowers",1996-11-02
+22,6,"Robert Downey, Jr.","Fiona Apple",1996-11-16
+22,7,"Phil Hartman","Bush",1996-11-23
+22,8,"Martin Short","No Doubt",1996-12-07
+22,9,"Rosie O'Donnell","Whitney Houston",1996-12-14
+22,10,"Kevin Spacey","Beck",1997-01-11
+22,11,"David Alan Grier","Snoop Doggy Dogg",1997-01-18
+22,12,"Neve Campbell","David Bowie",1997-02-08
+22,13,"Chevy Chase","Live",1997-02-15
+22,14,"Alec Baldwin","Tina Turner",1997-02-22
+22,15,"Sting","Veruca Salt",1997-03-15
+22,16,"Mike Myers","Aerosmith",1997-03-22
+22,17,"Rob Lowe","Spice Girls",1997-04-12
+22,18,"Pamela Anderson","Rollins Band",1997-04-19
+22,19,"John Goodman","Jewel",1997-05-10
+22,20,"Jeff Goldblum","En Vogue",1997-05-17
+23,1,"Sylvester Stallone","Jamiroquai",1997-09-27
+23,2,"Matthew Perry","Oasis",1997-10-04
+23,3,"Brendan Fraser","Björk",1997-10-18
+23,4,"Chris Farley","The Mighty Mighty Bosstones",1997-10-25
+23,5,"Jon Lovitz","Jane's Addiction",1997-11-08
+23,6,"Claire Danes","Mariah Carey",1997-11-15
+23,7,"Rudolph Giuliani","Sarah McLachlan",1997-11-22
+23,8,"Nathan Lane","Metallica & Marianne Faithfull",1997-12-06
+23,9,"Helen Hunt","Hanson",1997-12-13
+23,10,"Samuel L. Jackson","Ben Folds Five",1998-01-10
+23,11,"Sarah Michelle Gellar","Portishead",1998-01-17
+23,12,"John Goodman","Paula Cole",1998-02-07
+23,13,"Roma Downey","Missy Misdemeanor Elliott",1998-02-14
+23,14,"Garth Brooks","Garth Brooks",1998-02-28
+23,15,"Scott Wolf","Natalie Imbruglia",1998-03-07
+23,16,"Julianne Moore","Backstreet Boys",1998-03-14
+23,17,"Steve Buscemi","Third Eye Blind",1998-04-04
+23,18,"Greg Kinnear","All Saints",1998-04-11
+23,19,"Matthew Broderick","Natalie Merchant",1998-05-02
+23,20,"David Duchovny","Puff DaddyJimmy Page",1998-05-09
+24,1,"Cameron Diaz","The Smashing Pumpkins",1998-09-26
+24,2,"Kelsey Grammer","Sheryl Crow",1998-10-03
+24,3,"Lucy Lawless","Elliott Smith",1998-10-17
+24,4,"Ben Stiller","Alanis Morissette",1998-10-24
+24,5,"David Spade","Eagle-Eye Cherry",1998-11-07
+24,6,"Joan Allen","Jewel",1998-11-14
+24,7,"Jennifer Love Hewitt","Beastie Boys",1998-11-21
+24,8,"Vince Vaughn","Lauryn Hill",1998-12-05
+24,9,"Alec Baldwin","Luciano PavarottiVanessa WilliamsPhiladelphia Boys Choir & Chorale",1998-12-12
+24,10,"Bill Paxton","Beck",1999-01-09
+24,11,"James Van Der Beek","Everlast",1999-01-16
+24,12,"Gwyneth Paltrow","Barenaked Ladies",1999-02-06
+24,13,"Brendan Fraser","Busta RhymesThe Roots",1999-02-13
+24,14,"Bill Murray","Lucinda Williams",1999-02-20
+24,15,"Ray Romano","The Corrs",1999-03-13
+24,16,"Drew Barrymore","Garbage",1999-03-20
+24,17,"John Goodman","Tom Petty & the Heartbreakers",1999-04-10
+24,18,"Cuba Gooding Jr.","Ricky Martin",1999-05-08
+24,19,"Sarah Michelle Gellar","Backstreet Boys",1999-05-15
+25,1,"Jerry Seinfeld","David Bowie",1999-10-02
+25,2,"Heather Graham","Marc Anthony",1999-10-16
+25,3,"Norm Macdonald","Dr. Dre featuringSnoop Dogg & Eminem",1999-10-23
+25,4,"Dylan McDermott","Foo Fighters",1999-11-06
+25,5,"Garth Brooks","Garth Brooks as Chris Gaines",1999-11-13
+25,6,"Jennifer Aniston","Sting",1999-11-20
+25,7,"Christina Ricci","Beck",1999-12-04
+25,8,"Danny DeVito","R.E.M.",1999-12-11
+25,9,"Jamie Foxx","Blink-182",2000-01-08
+25,10,"Freddie Prinze, Jr.","Macy Gray",2000-01-15
+25,11,"Alan Cumming","Jennifer Lopez",2000-02-05
+25,12,"Julianna Margulies","DMX",2000-02-12
+25,13,"Ben Affleck","Fiona Apple",2000-02-19
+25,14,"Joshua Jackson","'N Sync",2000-03-11
+25,15,"The Rock (Dwayne Johnson)","AC/DC",2000-03-18
+25,16,"Christopher Walken","Christina Aguilera",2000-04-08
+25,17,"Tobey Maguire","Sisqó",2000-04-15
+25,18,"John Goodman","Neil Young",2000-05-06
+25,19,"Britney Spears","Britney Spears",2000-05-13
+25,20,"Jackie Chan","Kid Rock",2000-05-20
+26,1,"Rob Lowe","Eminem",2000-10-07
+26,2,"Kate Hudson","Radiohead",2000-10-14
+26,3,"Dana Carvey","The Wallflowers",2000-10-21
+26,4,"Charlize Theron","Paul Simon",2000-11-04
+26,5,"Calista Flockhart","Ricky Martin",2000-11-11
+26,6,"Tom Green","David Gray",2000-11-18
+26,7,"Val Kilmer","U2",2000-12-09
+26,8,"Lucy Liu","Jay-Z",2000-12-16
+26,9,"Charlie Sheen","Nelly Furtado",2001-01-13
+26,10,"Mena Suvari","Lenny Kravitz",2001-01-20
+26,11,"Jennifer Lopez","Jennifer Lopez",2001-02-10
+26,12,"Sean Hayes","Shaggy",2001-02-17
+26,13,"Katie Holmes","Dave Matthews Band",2001-02-24
+26,14,"Conan O'Brien","Don Henley",2001-03-10
+26,15,"Julia Stiles","Aerosmith",2001-03-17
+26,16,"Alec Baldwin","Coldplay",2001-04-07
+26,17,"Renée Zellweger","Eve",2001-04-14
+26,18,"Pierce Brosnan","Destiny's Child",2001-05-05
+26,19,"Lara Flynn Boyle","Bon Jovi",2001-05-12
+26,20,"Christopher Walken","Weezer",2001-05-19
+27,1,"Reese Witherspoon","Alicia Keys",2001-09-29
+27,2,"Seann William Scott","Sum 41",2001-10-06
+27,3,"Drew Barrymore","Macy Gray",2001-10-13
+27,4,"John Goodman","Ja Rule",2001-11-03
+27,5,"Gwyneth Paltrow","Ryan Adams",2001-11-10
+27,6,"Billy Bob Thornton","Creed",2001-11-17
+27,7,"Derek Jeter","ShakiraBubba Sparxxx",2001-12-01
+27,8,"Hugh Jackman","Mick Jagger",2001-12-08
+27,9,"Ellen DeGeneres","No Doubt",2001-12-15
+27,10,"Josh Hartnett","Pink",2002-01-12
+27,11,"Jack Black","The Strokes",2002-01-19
+27,12,"Britney Spears","Britney Spears",2002-02-02
+27,13,"Jonny Moseley","Outkast",2002-03-02
+27,14,"Jon Stewart","India.Arie",2002-03-09
+27,15,"Ian McKellen","Kylie Minogue",2002-03-16
+27,16,"Cameron Diaz","Jimmy Eat World",2002-04-06
+27,17,"Dwayne Johnson","Andrew W.K.",2002-04-13
+27,18,"Alec Baldwin","P.O.D.",2002-04-20
+27,19,"Kirsten Dunst","Eminem",2002-05-11
+27,20,"Winona Ryder","Moby",2002-05-18
+28,1,"Matt Damon","Bruce Springsteen & the E Street Band",2002-10-05
+28,2,"Sarah Michelle Gellar","Faith Hill",2002-10-12
+28,3,"John McCain","The White Stripes",2002-10-19
+28,4,"Eric McCormack","Jay-Z",2002-11-02
+28,5,"Nia Vardalos","Eve",2002-11-09
+28,6,"Brittany Murphy","Nelly",2002-11-16
+28,7,"Robert De Niro","Norah Jones",2002-12-07
+28,8,"Al Gore","Phish",2002-12-14
+28,9,"Jeff Gordon","Avril Lavigne",2003-01-11
+28,10,"Ray Liotta","The Donnas",2003-01-18
+28,11,"Matthew McConaughey","Dixie Chicks",2003-02-08
+28,12,"Jennifer Garner","Beck",2003-02-15
+28,13,"Christopher Walken","Foo Fighters",2003-02-22
+28,14,"Queen Latifah","Ms. Dynamite",2003-03-08
+28,15,"Salma Hayek","Christina Aguilera",2003-03-15
+28,16,"Bernie Mac","Good Charlotte",2003-04-05
+28,17,"Ray Romano","Zwan",2003-04-12
+28,18,"Ashton Kutcher","50 Cent",2003-05-03
+28,19,"Adrien Brody","Sean PaulWayne Wonder",2003-05-10
+28,20,"Dan Aykroyd","Beyoncé",2003-05-17
+29,1,"Jack Black","John Mayer",2003-10-04
+29,2,"Justin Timberlake","Justin Timberlake",2003-10-11
+29,3,"Halle Berry","Britney Spears",2003-10-18
+29,4,"Kelly Ripa","Outkast",2003-11-01
+29,5,"Andy Roddick","Dave Matthews & Friends",2003-11-08
+29,6,"Alec Baldwin","Missy Elliott",2003-11-15
+29,7,"Al Sharpton","Pink",2003-12-06
+29,8,"Elijah Wood","Jet",2003-12-13
+29,9,"Jennifer Aniston","The Black Eyed Peas",2004-01-10
+29,10,"Jessica Simpson & Nick Lachey","G-Unit",2004-01-17
+29,11,"Megan Mullally","Clay Aiken",2004-02-07
+29,12,"Drew Barrymore","Kelis",2004-02-14
+29,13,"Christina Aguilera","Maroon 5",2004-02-21
+29,14,"Colin Firth","Norah Jones",2004-03-06
+29,15,"Ben Affleck","N*E*R*D",2004-03-13
+29,16,"Donald Trump","Toots & the Maytals featuring Ben Harper, Jack Johnson, Bootsy Collins, and The Roots",2004-04-03
+29,17,"Janet Jackson","Janet Jackson",2004-04-10
+29,18,"Lindsay Lohan","Usher",2004-05-01
+29,19,"Snoop Dogg","Avril Lavigne",2004-05-08
+29,20,"Mary-Kate and Ashley Olsen","J-Kwon",2004-05-15
+30,1,"Ben Affleck","Nelly",2004-10-02
+30,2,"Queen Latifah","Queen Latifah",2004-10-09
+30,3,"Jude Law","Ashlee Simpson",2004-10-23
+30,4,"Kate Winslet","Eminem",2004-10-30
+30,5,"Liam Neeson","Modest Mouse",2004-11-13
+30,6,"Luke Wilson","U2",2004-11-20
+30,7,"Colin Farrell","Scissor Sisters",2004-12-11
+30,8,"Robert De Niro","Destiny's Child",2004-12-18
+30,9,"Topher Grace","The Killers",2005-01-15
+30,10,"Paul Giamatti","Ludacris featuring Sum 41",2005-01-22
+30,11,"Paris Hilton","Keane",2005-02-05
+30,12,"Jason Bateman","Kelly Clarkson",2005-02-12
+30,13,"Hilary Swank","50 Cent",2005-02-19
+30,14,"David Spade","Jack Johnson",2005-03-12
+30,15,"Ashton Kutcher","Gwen Stefani",2005-03-19
+30,16,"Cameron Diaz","Green Day",2005-04-09
+30,17,"Tom Brady","Beck",2005-04-16
+30,18,"Johnny Knoxville","System of a Down",2005-05-07
+30,19,"Will Ferrell","Queens of the Stone Age",2005-05-14
+30,20,"Lindsay Lohan","Coldplay",2005-05-21
+31,1,"Steve Carell","Kanye West",2005-10-01
+31,2,"Jon Heder","Ashlee Simpson",2005-10-08
+31,3,"Catherine Zeta-Jones","Franz Ferdinand",2005-10-22
+31,4,"Lance Armstrong","Sheryl Crow",2005-10-29
+31,5,"Jason Lee","Foo Fighters",2005-11-12
+31,6,"Eva Longoria","Korn",2005-11-19
+31,7,"Dane Cook","James Blunt",2005-12-03
+31,8,"Alec Baldwin","Shakira",2005-12-10
+31,9,"Jack Black","Neil Young",2005-12-17
+31,10,"Scarlett Johansson","Death Cab for Cutie",2006-01-14
+31,11,"Peter Sarsgaard","The Strokes",2006-01-21
+31,12,"Steve Martin","Prince",2006-02-04
+31,13,"Natalie Portman","Fall Out Boy",2006-03-04
+31,14,"Matt Dillon","Arctic Monkeys",2006-03-11
+31,15,"Antonio Banderas","Mary J. Blige",2006-04-08
+31,16,"Lindsay Lohan","Pearl Jam",2006-04-15
+31,17,"Tom Hanks","Red Hot Chili Peppers",2006-05-06
+31,18,"Julia Louis-Dreyfus","Paul Simon",2006-05-13
+31,19,"Kevin Spacey","Nelly Furtado",2006-05-20
+32,1,"Dane Cook","The Killers",2006-09-30
+32,2,"Jaime Pressly","Corinne Bailey Rae",2006-10-07
+32,3,"John C. Reilly","My Chemical Romance",2006-10-21
+32,4,"Hugh Laurie","Beck",2006-10-28
+32,5,"Alec Baldwin","Christina Aguilera",2006-11-11
+32,6,"Ludacris","Ludacris",2006-11-18
+32,7,"Matthew Fox","Tenacious D",2006-12-02
+32,8,"Annette Bening","Gwen Stefani and Akon",2006-12-09
+32,9,"Justin Timberlake","Justin Timberlake",2006-12-16
+32,10,"Jake Gyllenhaal","The Shins",2007-01-13
+32,11,"Jeremy Piven","AFI",2007-01-20
+32,12,"Drew Barrymore","Lily Allen",2007-02-03
+32,13,"Forest Whitaker","Keith Urban",2007-02-10
+32,14,"Rainn Wilson","Arcade Fire",2007-02-24
+32,15,"Julia Louis-Dreyfus","Snow Patrol",2007-03-17
+32,16,"Peyton Manning","Carrie Underwood",2007-03-24
+32,17,"Shia LaBeouf","Avril Lavigne",2007-04-14
+32,18,"Scarlett Johansson","Björk",2007-04-21
+32,19,"Molly Shannon","Linkin Park",2007-05-12
+32,20,"Zach Braff","Maroon 5",2007-05-19
+33,1,"LeBron James","Kanye West",2007-09-29
+33,2,"Seth Rogen","Spoon",2007-10-06
+33,3,"Jon Bon Jovi","Foo Fighters",2007-10-13
+33,4,"Brian Williams","Feist",2007-11-03
+33,5,"Tina Fey","Carrie Underwood",2008-02-23
+33,6,"Ellen Page","Wilco",2008-03-01
+33,7,"Amy Adams","Vampire Weekend",2008-03-08
+33,8,"Jonah Hill","Mariah Carey",2008-03-15
+33,9,"Christopher Walken","Panic! at the Disco",2008-04-05
+33,10,"Ashton Kutcher","Gnarls Barkley",2008-04-12
+33,11,"Shia LaBeouf","My Morning Jacket",2008-05-10
+33,12,"Steve Carell","Usher",2008-05-17
+34,1,"Michael Phelps","Lil Wayne",2008-09-13
+34,2,"James Franco","Kings of Leon",2008-09-20
+34,3,"Anna Faris","Duffy",2008-09-27
+34,4,"Anne Hathaway","The Killers",2008-10-04
+34,5,"Josh Brolin","Adele",2008-10-18
+34,6,"Jon Hamm","Coldplay",2008-10-25
+34,7,"Ben Affleck","David Cook",2008-11-01
+34,8,"Paul Rudd","Beyoncé",2008-11-15
+34,9,"Tim McGraw","Ludacris & T-Pain",2008-11-22
+34,10,"John Malkovich","T.I.",2008-12-06
+34,11,"Hugh Laurie","Kanye West",2008-12-13
+34,12,"Neil Patrick Harris","Taylor Swift",2009-01-10
+34,13,"Rosario Dawson","Fleet Foxes",2009-01-17
+34,14,"Steve Martin","Jason Mraz",2009-01-31
+34,15,"Bradley Cooper","TV on the Radio",2009-02-07
+34,16,"Alec Baldwin","Jonas Brothers",2009-02-14
+34,17,"Dwayne Johnson","Ray LaMontagne",2009-03-07
+34,18,"Tracy Morgan","Kelly Clarkson",2009-03-14
+34,19,"Seth Rogen","Phoenix",2009-04-04
+34,20,"Zac Efron","Yeah Yeah Yeahs",2009-04-11
+34,21,"Justin Timberlake","Ciara",2009-05-09
+34,22,"Will Ferrell","Green Day",2009-05-16
+35,1,"Megan Fox","U2",2009-09-26
+35,2,"Ryan Reynolds","Lady Gaga",2009-10-03
+35,3,"Drew Barrymore","Regina Spektor",2009-10-10
+35,4,"Gerard Butler","Shakira",2009-10-17
+35,5,"Taylor Swift","Taylor Swift",2009-11-07
+35,6,"January Jones","The Black Eyed Peas",2009-11-14
+35,7,"Joseph Gordon-Levitt","Dave Matthews Band",2009-11-21
+35,8,"Blake Lively","Rihanna",2009-12-05
+35,9,"Taylor Lautner","Bon Jovi",2009-12-12
+35,10,"James Franco","Muse",2009-12-19
+35,11,"Charles Barkley","Alicia Keys",2010-01-09
+35,12,"Sigourney Weaver","The Ting Tings",2010-01-16
+35,13,"Jon Hamm","Michael Bublé",2010-01-30
+35,14,"Ashton Kutcher","Them Crooked Vultures",2010-02-06
+35,15,"Jennifer Lopez","Jennifer Lopez",2010-02-27
+35,16,"Zach Galifianakis","Vampire Weekend",2010-03-06
+35,17,"Jude Law","Pearl Jam",2010-03-13
+35,18,"Tina Fey","Justin Bieber",2010-04-10
+35,19,"Ryan Phillippe","Ke$ha",2010-04-17
+35,20,"Gabourey Sidibe","MGMT",2010-04-24
+35,21,"Betty White","Jay-Z",2010-05-08
+35,22,"Alec Baldwin","Tom Petty and the Heartbreakers",2010-05-15
+36,1,"Amy Poehler","Katy Perry",2010-09-25
+36,2,"Bryan Cranston","Kanye West",2010-10-02
+36,3,"Jane Lynch","Bruno Mars",2010-10-09
+36,4,"Emma Stone","Kings of Leon",2010-10-23
+36,5,"Jon Hamm","Rihanna",2010-10-30
+36,6,"Scarlett Johansson","Arcade Fire",2010-11-13
+36,7,"Anne Hathaway","Florence + the Machine",2010-11-20
+36,8,"Robert De Niro","Diddy-Dirty Money",2010-12-04
+36,9,"Paul Rudd","Paul McCartney",2010-12-11
+36,10,"Jeff Bridges","Eminem and Lil Wayne",2010-12-18
+36,11,"Jim Carrey","The Black Keys",2011-01-08
+36,12,"Gwyneth Paltrow","Cee Lo Green",2011-01-15
+36,13,"Jesse Eisenberg","Nicki Minaj",2011-01-29
+36,14,"Dana Carvey","Linkin Park",2011-02-05
+36,15,"Russell Brand","Chris Brown",2011-02-12
+36,16,"Miley Cyrus","The Strokes",2011-03-05
+36,17,"Zach Galifianakis","Jessie J",2011-03-12
+36,18,"Elton John","Elton John and Leon Russell",2011-04-02
+36,19,"Helen Mirren","Foo Fighters",2011-04-09
+36,20,"Tina Fey","Ellie Goulding",2011-05-07
+36,21,"Ed Helms","Paul Simon",2011-05-14
+36,22,"Justin Timberlake","Lady Gaga",2011-05-21
+37,1,"Alec Baldwin","Radiohead",2011-09-24
+37,2,"Melissa McCarthy","Lady Antebellum",2011-10-01
+37,3,"Ben Stiller","Foster the People",2011-10-08
+37,4,"Anna Faris","Drake",2011-10-15
+37,5,"Charlie Day","Maroon 5",2011-11-05
+37,6,"Emma Stone","Coldplay",2011-11-12
+37,7,"Jason Segel","Florence + The Machine",2011-11-19
+37,8,"Steve Buscemi","The Black Keys",2011-12-03
+37,9,"Katy Perry","Robyn",2011-12-10
+37,10,"Jimmy Fallon","Michael Bublé",2011-12-17
+37,11,"Charles Barkley","Kelly Clarkson",2012-01-07
+37,12,"Daniel Radcliffe","Lana Del Rey",2012-01-14
+37,13,"Channing Tatum","Bon Iver",2012-02-04
+37,14,"Zooey Deschanel","Karmin",2012-02-11
+37,15,"Maya Rudolph","Sleigh Bells",2012-02-18
+37,16,"Lindsay Lohan","Jack White",2012-03-03
+37,17,"Jonah Hill","The Shins",2012-03-10
+37,18,"Sofía Vergara","One Direction",2012-04-07
+37,19,"Josh Brolin","Gotye",2012-04-14
+37,20,"Eli Manning","Rihanna",2012-05-05
+37,21,"Will Ferrell","Usher",2012-05-12
+37,22,"Mick Jagger","Mick Jagger
+(with Arcade Fire, Foo Fighters, Jeff Beck)",2012-05-19
+38,1,"Seth MacFarlane","Frank Ocean",2012-09-15
+38,2,"Joseph Gordon-Levitt","Mumford & Sons",2012-09-22
+38,3,"Daniel Craig","Muse",2012-10-06
+38,4,"Christina Applegate","Passion Pit",2012-10-13
+38,5,"Bruno Mars","Bruno Mars",2012-10-20
+38,6,"Louis C.K.","fun.",2012-11-03
+38,7,"Anne Hathaway","Rihanna",2012-11-10
+38,8,"Jeremy Renner","Maroon 5",2012-11-17
+38,9,"Jamie Foxx","Ne-Yo",2012-12-08
+38,10,"Martin Short","Paul McCartney",2012-12-15
+38,11,"Jennifer Lawrence","The Lumineers",2013-01-19
+38,12,"Adam Levine","Kendrick Lamar",2013-01-26
+38,13,"Justin Bieber","Justin Bieber",2013-02-09
+38,14,"Christoph Waltz","Alabama Shakes",2013-02-16
+38,15,"Kevin Hart","Macklemore and Ryan Lewis",2013-03-02
+38,16,"Justin Timberlake","Justin Timberlake",2013-03-09
+38,17,"Melissa McCarthy","Phoenix",2013-04-06
+38,18,"Vince Vaughn","Miguel",2013-04-13
+38,19,"Zach Galifianakis","Of Monsters and Men",2013-05-04
+38,20,"Kristen Wiig","Vampire Weekend",2013-05-11
+38,21,"Ben Affleck","Kanye West",2013-05-18
+39,1,"Tina Fey","Arcade Fire",2013-09-28
+39,2,"Miley Cyrus","Miley Cyrus",2013-10-05
+39,3,"Bruce Willis","Katy Perry",2013-10-12
+39,4,"Edward Norton","Janelle Monáe",2013-10-26
+39,5,"Kerry Washington","Eminem",2013-11-02
+39,6,"Lady Gaga","Lady Gaga",2013-11-16
+39,7,"Josh Hutcherson","HAIM",2013-11-23
+39,8,"Paul Rudd","One Direction",2013-12-07
+39,9,"John Goodman","Kings of Leon",2013-12-14
+39,10,"Jimmy Fallon","Justin Timberlake",2013-12-21
+39,11,"Drake","Drake",2014-01-18
+39,12,"Jonah Hill","Bastille",2014-01-25
+39,13,"Melissa McCarthy","Imagine Dragons",2014-02-01
+39,14,"Jim Parsons","Beck",2014-03-01
+39,15,"Lena Dunham","The National",2014-03-08
+39,16,"Louis C.K.","Sam Smith",2014-03-29
+39,17,"Anna Kendrick","Pharrell Williams",2014-04-05
+39,18,"Seth Rogen","Ed Sheeran",2014-04-12
+39,19,"Andrew Garfield","Coldplay",2014-05-03
+39,20,"Charlize Theron","The Black Keys",2014-05-10
+39,21,"Andy Samberg","St. Vincent",2014-05-17
+40,1,"Chris Pratt","Ariana Grande",2014-09-27
+40,2,"Sarah Silverman","Maroon 5",2014-10-04
+40,3,"Bill Hader","Hozier",2014-10-11
+40,4,"Jim Carrey","Iggy Azalea",2014-10-25
+40,5,"Chris Rock","Prince",2014-11-01
+40,6,"Woody Harrelson","Kendrick Lamar",2014-11-15
+40,7,"Cameron Diaz","Mark Ronson and Bruno Mars",2014-11-22
+40,8,"James Franco","Nicki Minaj",2014-12-06
+40,9,"Martin Freeman","Charli XCX",2014-12-13
+40,10,"Amy Adams","One Direction",2014-12-20
+40,11,"Kevin Hart","Sia",2015-01-17
+40,12,"Blake Shelton","Blake Shelton",2015-01-24
+40,13,"J. K. Simmons","D'Angelo",2015-01-31
+40,14,"Dakota Johnson","Alabama Shakes",2015-02-28
+40,15,"Chris Hemsworth","Zac Brown Band",2015-03-07
+40,16,"Dwayne Johnson","George Ezra",2015-03-28
+40,17,"Michael Keaton","Carly Rae Jepsen",2015-04-04
+40,18,"Taraji P. Henson","Mumford & Sons",2015-04-11
+40,19,"Scarlett Johansson","Wiz Khalifa",2015-05-02
+40,20,"Reese Witherspoon","Florence + the Machine",2015-05-09
+40,21,"Louis C.K.","Rihanna",2015-05-16
+41,1,"Miley Cyrus","Miley Cyrus",2015-10-03
+41,2,"Amy Schumer","The Weeknd",2015-10-10
+41,3,"Tracy Morgan","Demi Lovato",2015-10-17
+41,4,"Donald Trump","Sia",2015-11-07
+41,5,"Elizabeth Banks","Disclosure",2015-11-14
+41,6,"Matthew McConaughey","Adele",2015-11-21
+41,7,"Ryan Gosling","Leon Bridges",2015-12-05
+41,8,"Chris Hemsworth","Chance the Rapper",2015-12-12
+41,9,"Tina Fey & Amy Poehler","Bruce Springsteen & the E Street Band",2015-12-19
+41,10,"Adam Driver","Chris Stapleton",2016-01-16
+41,11,"Ronda Rousey","Selena Gomez",2016-01-23
+41,12,"Larry David","The 1975",2016-02-06
+41,13,"Melissa McCarthy","Kanye West",2016-02-13
+41,14,"Jonah Hill","Future",2016-03-05
+41,15,"Ariana Grande","Ariana Grande",2016-03-12
+41,16,"Peter Dinklage","Gwen Stefani",2016-04-02
+41,17,"Russell Crowe","Margo Price",2016-04-09
+41,18,"Julia Louis-Dreyfus","Nick Jonas",2016-04-16
+41,19,"Brie Larson","Alicia Keys",2016-05-07
+41,20,"Drake","Drake",2016-05-14
+41,21,"Fred Armisen","Courtney Barnett",2016-05-21
+42,1,"Margot Robbie","The Weeknd",2016-10-01
+42,2,"Lin-Manuel Miranda","Twenty One Pilots",2016-10-08
+42,3,"Emily Blunt","Bruno Mars",2016-10-15
+42,4,"Tom Hanks","Lady Gaga",2016-10-22
+42,5,"Benedict Cumberbatch","Solange",2016-11-05
+42,6,"Dave Chappelle","A Tribe Called Quest",2016-11-12
+42,7,"Kristen Wiig","The xx",2016-11-19
+42,8,"Emma Stone","Shawn Mendes",2016-12-03
+42,9,"John Cena","Maren Morris",2016-12-10
+42,10,"Casey Affleck","Chance the Rapper",2016-12-17
+42,11,"Felicity Jones","Sturgill Simpson",2017-01-14
+42,12,"Aziz Ansari","Big Sean",2017-01-21
+42,13,"Kristen Stewart","Alessia Cara",2017-02-04
+42,14,"Alec Baldwin","Ed Sheeran",2017-02-11
+42,15,"Octavia Spencer","Father John Misty",2017-03-04
+42,16,"Scarlett Johansson","Lorde",2017-03-11
+42,17,"Louis C.K.","The Chainsmokers",2017-04-08
+42,18,"Jimmy Fallon","Harry Styles",2017-04-15
+42,19,"Chris Pine","LCD Soundsystem",2017-05-06
+42,20,"Melissa McCarthy","HAIM",2017-05-13
+42,21,"Dwayne Johnson","Katy Perry",2017-05-20
