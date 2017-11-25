@@ -18,7 +18,7 @@ raw.ratings <- url %>%
   data.frame(stringsAsFactors=F) # Convert to data frame
 
 head(raw.ratings)
-#write.csv(raw.ratings,"Data/SNLRawRatings.csv",row.names=F)
+write.csv(raw.ratings,"Data/SNLRawRatings.csv",row.names=F)
 
 # Helper function for extracting the season from the full episode number
 extract.season <- function(x){
@@ -46,7 +46,7 @@ snl.ratings <- raw.ratings %>%
   filter(Season < 43) # Not going to consider episodes from the currently airing season
 
 head(snl.ratings)
-#write.csv(snl.ratings,"SNLRatings.csv",row.names=F)
+write.csv(snl.ratings,"SNLRatings.csv",row.names=F)
 
 
 ### Scrape SNL Episode Airdates
@@ -71,7 +71,7 @@ raw.snl.3 <- extract.wiki.table("https://en.wikipedia.org/wiki/List_of_Saturday_
 raw.snl.combined <- rbind(raw.snl.1,raw.snl.2,raw.snl.3) # Bind the three data frames together
 
 head(raw.snl.combined)
-#write.csv(raw.snl.combined,"Data/SNLRawEpisodes.csv",row.names=T)
+write.csv(raw.snl.combined,"Data/SNLRawEpisodes.csv",row.names=T)
 
 # Helper function for extracting the correct airdate
 extract.airdate <- function(airdate){
@@ -107,7 +107,7 @@ first.episodes <- snl.airdates %>%
   select(EpNumber, Season)
 
 head(first.episodes)
-#write.csv(first.episodes,"Data/SNLFirstEpisodes.csv",row.names=F)
+write.csv(first.episodes,"Data/SNLFirstEpisodes.csv",row.names=F)
 
 # Merge season information to each episode in clean airdate data
 snl.airdates <- snl.airdates %>%
@@ -117,14 +117,11 @@ snl.airdates <- snl.airdates %>%
   filter(Season < 43) # Not going to consider the season currently airing
 
 head(snl.airdates)
-#write.csv(snl.airdates, "Data/SNLAirdates.csv", row.names=F)
+write.csv(snl.airdates, "Data/SNLAirdates.csv", row.names=F)
 
 
 
 ### Check for mismatches between Airdates and Ratings datasets, then combine
-
-#snl.airdates <- read.csv("Data/SNLAirdates.csv", header=T, stringsAsFactors=F)
-#snl.ratings <- read.csv("Data/SNLRatings.csv", header=T, stringsAsFactors=F)
 
 # Check if episode counts are the same
 snl.airdates.season.counts <- snl.airdates %>%
@@ -177,4 +174,5 @@ snl.data %>%
   filter(!MatchDetected) %>%
   select(Season,SeasonEpNumber,Guests,Host,MusicalGuest)
 
+head(snl.data)
 write.csv(snl.data, "Data/SNLData.csv", row.names=F)

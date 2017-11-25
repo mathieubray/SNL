@@ -9,7 +9,7 @@ snl.data <- read.csv("Data/SNLData.csv",header=T,stringsAsFactors=F) %>%
   mutate(AirDate = ymd(AirDate))
 
 
-### Ratings Distribution by Season
+### Ratings by Season
 
 # Extract median episode rating for each season
 median.ratings <- snl.data %>% 
@@ -20,17 +20,18 @@ median.ratings <- snl.data %>%
 snl.data <- snl.data %>%
   left_join(median.ratings, by="Season")
 
-# Plot rating distributions
+# Plot rating densities
 ggplot(data=snl.data, aes(x=Rating, y=as.factor(Season), fill=MedianRating)) +
   geom_density_ridges(alpha=0.7, rel_min_height=0.01) +
   scale_fill_viridis(name = "Median Rating") +
   scale_y_discrete(position="right") +
   theme_bw() +
   xlim(0,10) +
-  xlab("Ratings Distribution") +
+  xlab("Rating") +
   ylab("Season") +
   annotate("text",x=5,y=20,col="red",label=paste0("@mathieubray ",lubridate::year(lubridate::today())),
-           alpha=0.15,cex=15,fontface="bold",angle=30)
+           alpha=0.15,cex=15,fontface="bold",angle=30) +
+  ggtitle("SNL Ratings Density by Season", subtitle = "Color represents median episode rating from the given season. Data from imdb.com")
 
 snl.data %>% filter(Season==41, Rating < 4.0) # One of the least popular episodes
 
@@ -44,36 +45,42 @@ mean.votes <- snl.data %>%
 snl.data <- snl.data %>%
   left_join(mean.votes, by="Season")
 
-ggplot(data=snl.data, aes(x=Season, y=Votes, color = MeanVotes)) +
+ggplot(data=snl.data, aes(x=as.factor(Season), y=Votes, color = MeanVotes)) +
   scale_color_viridis(name = "Mean Number of Votes", direction=-1) +
-  scale_x_continuous(breaks=1:42) +
-  geom_point() +
+  geom_boxplot(size=1) +
+  xlab("Season") +
   theme_bw() +
   coord_flip() +
-  annotate("text",x=21,y=300,col="red",label=paste0("@mathieubray ",lubridate::year(lubridate::today())),
-           alpha=0.15,cex=15,fontface="bold",angle=30)
+  annotate("text",x=21,y=250,col="red",label=paste0("@mathieubray ",lubridate::year(lubridate::today())),
+           alpha=0.15,cex=12,fontface="bold",angle=30) +
+  ggtitle("Number of Votes for SNL Rating is Not Consistent Season to Season",
+          subtitle="Color represents mean number of votes by season. Data from imdb.com" )
 
 
-### Plot overall ratings distribution
+### Plot overall ratings
 
 ggplot(data=snl.data, aes(Rating)) +
   geom_histogram(stat="count",alpha=0.8,fill="blue") +
   theme_bw() +
   xlim(0,10) +
   ylim(0,50) +
-  xlab("Ratings Distribution") +
+  xlab("Rating") +
   ylab("Number of Episodes") +
   annotate("text",x=5,y=25,col="red",label=paste0("@mathieubray ",lubridate::year(lubridate::today())),
-           alpha=0.15,cex=15,fontface="bold",angle=30)
+           alpha=0.15,cex=15,fontface="bold",angle=30) +
+  ggtitle("SNL Ratings Histogram",
+          subtitle="Data from imdb.com" )
 
 ggplot(data=snl.data, aes(x=Rating)) +
   geom_density(alpha=0.5, fill="blue") +
   theme_bw() +
   xlim(0,10) +
-  xlab("Ratings Distribution") +
+  xlab("Rating") +
   ylab("Density") +
   annotate("text",x=5,y=0.25,col="red",label=paste0("@mathieubray ",lubridate::year(lubridate::today())),
-           alpha=0.15,cex=15,fontface="bold",angle=30)
+           alpha=0.15,cex=15,fontface="bold",angle=30) +
+  ggtitle("SNL Ratings Density",
+          subtitle="Data from imdb.com" )
 
 
 ### Ratings based on number of weeks since last episode
@@ -103,7 +110,7 @@ snl.data.enhanced %>%
   group_by(WeeksCat) %>%
   count
 
-# Plot distributions based on number of weeks between episodes
+# Plot densities based on number of weeks between episodes
 ggplot(data=snl.data.enhanced, aes(x=Rating, fill=WeeksCat)) +
   geom_density(data = snl.data.enhanced %>% select(-WeeksCat), fill = "darkgrey") +
   geom_density(alpha = 0.5) +
@@ -112,10 +119,12 @@ ggplot(data=snl.data.enhanced, aes(x=Rating, fill=WeeksCat)) +
   theme_bw() +
   xlim(0,10) +
   ylim(0,0.62) +
-  xlab("Ratings Distribution") +
+  xlab("Rating") +
   ylab("Density") +
   annotate("text",x=5,y=0.31,col="red",label=paste0("@mathieubray ",lubridate::year(lubridate::today())),
-           alpha=0.15,cex=10,fontface="bold",angle=30)
+           alpha=0.15,cex=6,fontface="bold",angle=30) +
+  ggtitle("Does the Break Before an SNL Episode Affect its Rating?",
+          subtitle="Grey curves represent overall ratings density. Data from imdb.com" )
 
 
 # What if we just looked at episodes written with a break versus those without
@@ -132,11 +141,12 @@ ggplot(data=snl.data.enhanced, aes(x=Rating, fill=FreshEpisode)) +
   theme_bw() +
   xlim(0,10) +
   ylim(0,0.5) +
-  xlab("Ratings Distribution") +
+  xlab("Rating") +
   ylab("Density") +
   annotate("text",x=5,y=0.25,col="red",label=paste0("@mathieubray ",lubridate::year(lubridate::today())),
            alpha=0.15,cex=15,fontface="bold",angle=30) +
-  ggtitle("Was There At Least 1 Week Break Before the Episode?")
+  ggtitle("Are Ratings Affected by Whether an Episode Airs After A Break?",
+          subtitle="Color represents whether there was at least one week between episodes ('Break') or not ('No Break'). Data from imdb.com" )
 
 # What if we just looked at season premieres vs. non-season premieres?
 snl.data.enhanced <- snl.data.enhanced %>%
@@ -152,10 +162,12 @@ ggplot(data=snl.data.enhanced, aes(x=Rating, fill=Premiere)) +
   theme_bw() +
   xlim(0,10) +
   ylim(0,0.5) +
-  xlab("Ratings Distribution") +
+  xlab("Rating") +
   ylab("Density") +
   annotate("text",x=5,y=0.25,col="red",label=paste0("@mathieubray ",lubridate::year(lubridate::today())),
-           alpha=0.15,cex=15,fontface="bold",angle=30)
+           alpha=0.15,cex=15,fontface="bold",angle=30) +
+  ggtitle("Are Ratings Affected by Whether an Episode is a Season Premiere?",
+          subtitle="Color represents whether episodes are the first of their seasons ('Premiere') or not ('Not Premiere'). Data from imdb.com" )
 
 
 ### Ratings based on number of consecutive airdates
@@ -177,6 +189,11 @@ for (i in 1:num.episodes){
 
 snl.data.enhanced$ConsecutiveWeeks <- consecutive.weeks
 
+snl.data.enhanced %>% 
+  filter(Season==42) %>%
+  select(SeasonEpNumber,Host,AirDate,ConsecutiveWeeks) %>%
+  head(10)
+
 # Check counts and form groups of episodes basd on how many episodes have aired in a row
 snl.data.enhanced %>%
   group_by(ConsecutiveWeeks) %>%
@@ -192,12 +209,14 @@ ggplot(data=snl.data.enhanced, aes(x=Rating, fill=ConsecutiveCat)) +
   geom_density(alpha=0.7) +
   facet_wrap(~ConsecutiveCat) +
   scale_fill_viridis(name = "Number of Consecutive Episodes Prior", discrete=T) +
-  theme_bw() +\
+  theme_bw() +
   xlim(0,10) +
-  xlab("Ratings Distribution") +
+  xlab("Rating") +
   ylab("Density") +
   annotate("text",x=5,y=0.31,col="red",label=paste0("@mathieubray ",lubridate::year(lubridate::today())),
-           alpha=0.15,cex=10,fontface="bold",angle=30) +
-  theme(legend.position = "bottom")
+           alpha=0.15,cex=6,fontface="bold",angle=30) +
+  theme(legend.position = "bottom") +
+  ggtitle("Does the Number of Consecutive Episodes Prior to an SNL Episode Affect its Rating?",
+          subtitle="Grey curves represent overall ratings density. Data from imdb.com" )
 
 
